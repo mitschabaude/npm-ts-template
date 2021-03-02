@@ -17,8 +17,14 @@ git init
 git checkout -b main
 git add . && git commit -m "init"
 
-# install packages and try if it works
+# install packages and see if it works
 yarn && yarn build && yarn size
+
+# add lockfile
+git add . && git commit -m "add lockfile"
+
+# start kicking ass
+code .
 ```
 
-Then quickly adapt `LICENSE.md` and `package.json` (name, author, repo) so you don't forget about it.
+Don't forget to adapt `LICENSE.md` and `package.json` (name, author, repo).

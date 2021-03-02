@@ -11,10 +11,13 @@ To start off a new package:
 git clone git@github.com:mitschabaude/npm-ts-template.git my-repo
 cd my-repo
 
-# remove git
+# remove git history and init new repo
 rm -rf .git
+git init
+git checkout -b main
+git add . && git commit -m "init"
 
-# install base packages and try if it works
+# install packages and try if it works
 yarn && yarn build && yarn size
 ```
 

@@ -27,4 +27,5 @@ git add . && git commit -m "add lockfile"
 code .
 ```
 
-Don't forget to adapt `LICENSE.md` and `package.json` (name, author, repo).
+Don't forget to adapt `LICENSE.md` and `package.json` (name, author, homepage, repo).
+

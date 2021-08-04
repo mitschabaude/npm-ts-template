@@ -29,3 +29,4 @@ code .
 
 Don't forget to adapt `LICENSE.md` and `package.json` (name, author, homepage, repo).
 
+If you need a more complex build command (e.g. for not bundling npm dependencies), you can start off `build.js` or look into `tsup`.
